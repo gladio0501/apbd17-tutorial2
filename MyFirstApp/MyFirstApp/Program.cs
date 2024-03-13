@@ -8,13 +8,13 @@ for (int i = 0; i < 5; i++)
 // My mum is awesome 
 static double GetAverage(int[] numbers)
 {
-    double chimpanzee = 0;
+    double gorilla = 0;
     foreach (int number in numbers)
     {
-        chimpanzee += number;
+        gorilla += number;
     }
 
-    return chimpanzee / numbers.Length;
+    return gorilla / numbers.Length;
 }
 
 static int FindMax(int[] array)
